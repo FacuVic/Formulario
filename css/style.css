@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #766e6e; /* Cambiar color de fondo */
+  }
+  
+  .container {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #84baf1; /* Cambiar color de fondo del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Añadir sombra al contenedor */
+  }
+  
+  h2 {
+    color: #333; /* Cambiar color del texto del encabezado */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Cambiar color de fondo del botón principal */
+    border-color: #050505; /* Cambiar color del borde del botón principal */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cambiar color de fondo del botón principal al pasar el mouse */
+    border-color: #0056b3; /* Cambiar color del borde del botón principal al pasar el mouse */
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Cambiar color de fondo del botón de eliminar */
+    border-color: #0c0c0c; /* Cambiar color del borde del botón de eliminar */
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333; /* Cambiar color de fondo del botón de eliminar al pasar el mouse */
+    border-color: #bd2130; /* Cambiar color del borde del botón de eliminar al pasar el mouse */
+  }
+  
+  .table {
+    margin-top: 20px; /* Añadir espacio superior a la tabla */
+  }
+  
+  th, td {
+    text-align: center;
+  }
+  
+  input[type="number"], .btn {
+    border-radius: 5px; /* Añadir bordes redondeados a los campos de entrada y botones */
+  }
+  
+  input[type="number"] {
+    width: 70px; /* Ajustar el ancho de los campos de entrada de números */
+  }
+  
+  .form-control {
+    width: 100%; /* Ajustar el ancho de los campos de entrada de texto */
+  }
+  
+.table {
+    margin-top: 20px; /* Añadir espacio superior a la tabla */
+    border: 2px solid #060606; /* Añadir un borde a la tabla */
+    border-collapse: collapse; /* Colapsar los bordes de la tabla */
+    width: 100%; /* Asegurarse de que la tabla ocupe todo el ancho */
+  }
+  
+  th, td {
+    text-align: center;
+    border: 1px solid #141313; /* Añadir un borde a las celdas */
+    padding: 8px; /* Añadir relleno a las celdas */
+  }
+  
+  /* Resto de estilos */
+  
